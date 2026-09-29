@@ -297,7 +297,7 @@ export const og: SocialImageOptions["Component"] = (
         }}
       />
       <div
-        style={{
+        style={
           display: "flex",
           height: "100%",
           width: "100%",
@@ -308,43 +308,43 @@ export const og: SocialImageOptions["Component"] = (
           paddingTop: "4rem",
           paddingBottom: "4rem",
           marginLeft: "4rem",
-        }}
+        }
       >
         <img
-          src={`"https://${cfg.baseUrl}/static/icon.jpeg"`}
-          style={{
+          src="https://example.com./static/icon.jpeg"
+          style={
             position: "relative",
             backgroundClip: "border-box",
             borderRadius: "6rem",
-          }}
+          }
           width={80}
         />
         <div
-          style={{
+          style={
             display: "flex",
             flexDirection: "column",
             textAlign: "left",
             fontFamily: fonts[0].name,
-          }}
+          }
         >
           <h2
-            style={{
+            style={
               color: cfg.theme.colors[colorScheme].light,
               fontSize: "3rem",
               fontWeight: 700,
               marginRight: "4rem",
               fontFamily: fonts[0].name,
-            }}
+            }
           >
             {title}
           </h2>
           <ul
-            style={{
+            style={
               color: cfg.theme.colors[colorScheme].gray,
               gap: "1rem",
               fontSize: "1.5rem",
               fontFamily: fonts[1].name,
-            }}
+            }
           >
             {Li.map((item, index) => {
               if (item) {
@@ -354,7 +354,7 @@ export const og: SocialImageOptions["Component"] = (
           </ul>
         </div>
         <p
-          style={{
+          style={
             color: cfg.theme.colors[colorScheme].light,
             fontSize: "1.5rem",
             overflow: "hidden",
@@ -365,7 +365,7 @@ export const og: SocialImageOptions["Component"] = (
             WebkitBoxOrient: "vertical",
             lineClamp: 7,
             fontFamily: fonts[1].name,
-          }}
+          }
         >
           {description}
         </p>
