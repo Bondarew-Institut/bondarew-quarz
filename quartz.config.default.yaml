@@ -6,8 +6,8 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
-baseUrl: "bondarew-institut.github.io/bondarew-quarz"
+    locale: en-US
+  baseUrl: "bondarew-institut.github.io/bondarew-quarz"
   ignorePatterns:
     - private
     - templates
