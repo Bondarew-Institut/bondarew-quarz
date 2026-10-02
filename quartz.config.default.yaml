@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-baseUrl: bondarew-institut.github.io/bondarew-quarz
+baseUrl: "bondarew-institut.github.io/bondarew-quarz"
   ignorePatterns:
     - private
     - templates
